@@ -101,11 +101,11 @@ export default {
       return r;
     },
     getImgUrl() {
-    var num = this.resultVal==0?1:this.resultVal;
+    var num = this.rating();
      // var images = require.context('./static/faces/', false, /\.png$/)
      // return images('./static/faces/' + num + ".png")
-     require('./src/faces/' + num + ".png");
-     return './src/faces/' + num + ".png";
+    //require('static/faces/' + num + ".png");
+     return require('../static/faces/' + num + ".png");
   }
 
 

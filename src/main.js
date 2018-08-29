@@ -5,6 +5,7 @@ import 'vue-awesome/icons/bolt'
 
 import 'bulma/css/bulma.css'
 
+require('../static/faces/' + 1 + ".png");
 
 /* Register component with one of 2 methods */
 
